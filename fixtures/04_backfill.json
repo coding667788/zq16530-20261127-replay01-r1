@@ -1,0 +1,15 @@
+{
+  "events": [
+    {
+      "biz_ts": "2026-11-27T08:30:00",
+      "family": "fam-bravo",
+      "label": "人工补登",
+      "op": "use",
+      "request_id": "b-backfill-use",
+      "seq": 100,
+      "session_id": "ses-backfill",
+      "token": "tok-eeca5cd772bfa2"
+    }
+  ],
+  "fixture": "04_backfill"
+}

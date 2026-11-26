@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "biz_ts": "2026-11-27T10:00:00",
+      "family": "fam-bravo",
+      "op": "revoke",
+      "request_id": "c-revoke",
+      "seq": null,
+      "token": "tok-eeca5cd772bfa2"
+    },
+    {
+      "biz_ts": "2026-11-27T10:00:00",
+      "family": "fam-bravo",
+      "op": "use",
+      "request_id": "c-use",
+      "seq": null,
+      "session_id": "ses-amb",
+      "token": "tok-eeca5cd772bfa2"
+    }
+  ],
+  "fixture": "03_indeterminate"
+}

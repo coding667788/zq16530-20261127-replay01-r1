@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "biz_ts": "2026-11-27T09:06:00",
+      "family": "fam-bravo",
+      "op": "rotate",
+      "request_id": "b-lose",
+      "seq": 4,
+      "token": "tok-eeca5cd772bfa2"
+    },
+    {
+      "biz_ts": "2026-11-27T09:00:00",
+      "family": "fam-bravo",
+      "op": "issue",
+      "request_id": "b-issue",
+      "seq": 1
+    },
+    {
+      "biz_ts": "2026-11-27T09:07:00",
+      "family": "fam-bravo",
+      "op": "use",
+      "request_id": "b-after-session",
+      "seq": 5,
+      "session_id": "ses-post",
+      "token": "tok-eeca5cd772bfa2"
+    },
+    {
+      "biz_ts": "2026-11-27T09:03:00",
+      "family": "fam-bravo",
+      "op": "use",
+      "request_id": "b-pre-session",
+      "seq": 2,
+      "session_id": "ses-pre",
+      "token": "tok-eeca5cd772bfa2"
+    },
+    {
+      "biz_ts": "2026-11-27T09:05:00",
+      "family": "fam-bravo",
+      "op": "rotate",
+      "request_id": "b-win",
+      "seq": 3,
+      "token": "tok-eeca5cd772bfa2"
+    }
+  ],
+  "fixture": "05_race_shuffled"
+}
